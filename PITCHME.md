@@ -43,10 +43,7 @@
 
 * Всички твърдения от предния слайд са вярни. Не всичко работи за всички. <!-- .element: class="fragment" -->
 * Няма сребърен куршум, но за всичко си има набор от добри инструменти. <!-- .element: class="fragment" -->
-* Дайте щанс на този набор от инструменти? <!-- .element: class="fragment" -->
-
-#HSLIDE
-![Image-Absolute](assets/tools.jpg)
+* Дайте шанс на този набор от инструменти? <!-- .element: class="fragment" -->
 
 #HSLIDE
 ### Какво е Elixir?
@@ -63,7 +60,8 @@
 ![Image-Absolute](assets/what_is_erlang.png)
 
 #HSLIDE
-#### Erlang е съсдаден с цел : писане на телеком програми
+Erlang е създаден с цел : писане на телеком програми
+
 * Конкурентни (едно устройство трябва да може да поддържа хиляди едновременни транзакции). <!-- .element: class="fragment" -->
 * Толерантни към грешки и проблеми, както софтуерни, така и хардуерни.  <!-- .element: class="fragment" -->
 * Практически нулев downtime.  <!-- .element: class="fragment" -->
@@ -249,7 +247,11 @@ a = 4                 # Няма грешка, 'a' има стойност 4
 f = fn (x) -> x * x end
 f.(3)
 # -> 9
+```
 
+#HSLIDE
+#### Функционален език:
+```elixir
 f = fn
   (5) -> {:ok, 5}
   (x) -> {:error, x}
@@ -292,7 +294,7 @@ send pid, {:howdy, "Как си?"}
 ```
 
 #HSLIDE
-#### Parallel map(collection):
+Parallel map(collection):
 
 ```elixir
 defmodule PEnum do
@@ -305,7 +307,7 @@ end
 ```
 
 #HSLIDE
-Различна идеология от 'shared state, threads and locks'!
+No shared state, threads and locks.
 
 ![Image-Absolute](assets/suffer.jpg)
 
@@ -393,12 +395,11 @@ end
 ![Image-Absolute](assets/distribution.jpg)
 
 #HSLIDE
-## Защо да научим Elixir?
+### Защо да научим Elixir?
 * Защото е модерен, конкурентен език.
 * Защото хората зад и около него са опитни.
 * Защото основата му, Erlang, е стабилна и доказана.
 * Защото е функционален език.
-* Защото е лесен за писане и четене.
 * Защото е подходящ за писане и поддръжка на много типове приложения.
 * Защото ще разшири кръгозора ви.
 * Защо не?
