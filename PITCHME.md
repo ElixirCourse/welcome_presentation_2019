@@ -18,7 +18,7 @@
 #HSLIDE
 ### Кои сте вие?
 
-* Иската да разберете защо напоследък се говори за Erlang/Elixir?             <!-- .element: class="fragment" -->
+* Искате да разберете защо напоследък се говори за Erlang/Elixir?             <!-- .element: class="fragment" -->
 * Фенове сте на Elixir/Erlang и искате да учите Elixir?                       <!-- .element: class="fragment" -->
 * Искате да изкарате курс от типа 'Програмиране с |език|' за да си обогатите познанията? <!-- .element: class="fragment" -->
 * Искате да запишете курс от типа 'Програмиране с |език|' за лесни кредити? <!-- .element: class="fragment" -->
@@ -33,7 +33,7 @@
 
 * Нали си знам PHP | JAVA | C# | Ruby | Python | Това-с-което-(ще-)си-вадя-хляба? <!-- .element: class="fragment" -->
 * Тези хипстъри, дето всяка година учат нов език, за нищо не стават!  <!-- .element: class="fragment" -->
-* Всяка година, не, всяка седмица, нова 'технология', то не може всичко я! <!-- .element: class="fragment" -->
+* Всяка година, не, всяка седмица нова 'технология', то не може всичко я! <!-- .element: class="fragment" -->
 
 #HSLIDE
 ![Image-Absolute](assets/Haters_gonna_hate.jpg)
@@ -373,11 +373,6 @@ No shared state, threads and locks.
 #### Plug & Phoenix
 
 ![Image-Absolute](assets/phoenix_and_plug.jpg)
-
-#HSLIDE
-#### Phoenix!!
-
-![Image-Absolute](assets/ruby_vs_elixir.png)
 
 #HSLIDE
 #### Ecto
