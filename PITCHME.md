@@ -395,7 +395,7 @@ No shared state, threads and locks.
 #HSLIDE
 * Pivotal - RabbitMQ CLI е написан на Elixir.
 * Slack - Сървърите, поддържащи видео разговорите са на Elixir.  <!-- .element: class="fragment" -->
-* Списък с компании, ползващи Elixir, можете да намерите тук - http://elixir-companies.com  <!-- .element: class="fragment" -->
+* http://elixir-companies.com - Списък с компании, ползващи Elixir. <!-- .element: class="fragment" -->
 
 #HSLIDE
 ### Защо да научим Elixir?
