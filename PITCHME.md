@@ -388,14 +388,14 @@ No shared state, threads and locks.
 ### Кой ползва Elixir?
 
 #HSLIDE
-* Adobe - За колаборативна работа над фотографски материали
-* Discord - За voice/text чат за геймъри  <!-- .element: class="fragment" -->
-* Pinterest - Социална мрежа, написана на Elixir. За споделяне и тагване на хоби идеи по снимки.  <!-- .element: class="fragment" -->
+* Adobe - За колаборативна работа над фотографски материали.
+* Discord - За voice/text чат за геймъри.
+* Pinterest - Социална мрежа, написана на Elixir. За споделяне и тагване на хоби идеи по снимки.
 
 #HSLIDE
 * Pivotal - RabbitMQ CLI е написан на Elixir.
-* Slack - Сървърите, поддържащи видео разговорите са на Elixir.  <!-- .element: class="fragment" -->
-* http://elixir-companies.com - Списък с компании, ползващи Elixir. <!-- .element: class="fragment" -->
+* Slack - Сървърите, поддържащи видео разговорите са на Elixir.
+* http://elixir-companies.com - Списък с компании, ползващи Elixir.
 
 #HSLIDE
 ### Защо да научим Elixir?
