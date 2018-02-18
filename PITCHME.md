@@ -412,7 +412,7 @@ No shared state, threads and locks.
 
 * https://elixir-lang.bg
 * https://www.facebook.com/groups/636900123169076/
-* admin@elixir-lang.bg
+* course@elixir-lang.bg
 
 #HSLIDE
 ## Край
