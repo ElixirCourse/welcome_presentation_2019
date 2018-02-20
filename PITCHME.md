@@ -425,7 +425,7 @@ from Post,
 
 #HSLIDE
 ## Малко информация за курса
-![Image-Absolute](assets/beer.webp)
+![Image-Absolute](assets/Craft-Beer.jpeg)
 
 #HSLIDE
 ## Добре дошли!
@@ -451,6 +451,9 @@ There will be no foolish wand waving or silly incantations in this class. As suc
 * Курсът ще се провежда всеки Вторник и Четвъртък от 19&#58;15 до 21:00.  <!-- .element: class="fragment" -->
 * Ще се стараем за всяка тема да имаме подробна публикация в блога ни. <!-- .element: class="fragment" -->
 * обикновено на лекция ще имаме презентация, но винаги сме готови да обсъдим нещо, което не е включено в нея. <!-- .element: class="fragment" -->
+
+#HSLIDE
+## Организация на курса
 * Лекциите ще бъдат разделени в 3 основни блока <!-- .element: class="fragment" -->
   * Първият блок ще бъде информация за самия език и неговите идиоми <!-- .element: class="fragment" -->
   * Във втория ще говорим за паралелизъм и кокурентност <!-- .element: class="fragment" -->
