@@ -478,7 +478,7 @@ There will be no foolish wand waving or silly incantations in this class. As suc
 
 #HSLIDE
 ## Ресурси
-* Имаме сайт http://blog.elixir-lang.bg
+* Имаме сайт http://elixir-lang.bg
 * Имаме Facebook група https://www.facebook.com/groups/636900123169076/
 * Имаме mail [course@elixir-lang.bg](mailto:course@elixir-lang.bg)
 * Github https://github.com/ElixirCourse
