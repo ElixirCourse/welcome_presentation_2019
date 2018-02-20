@@ -207,9 +207,9 @@ end
 
 ```elixir
 [1, 2, 3, 4, 5]
-  |> Enum.map(fn n -> n * n end)
-  |> Enum.filter(fn n -> n > 10 end)
-  |> Enum.reduce(1, &(&1 + &2))
+|> Enum.map(fn n -> n * n end)
+|> Enum.filter(fn n -> n > 10 end)
+|> Enum.reduce(1, &(&1 + &2))
 
 # -> 42
 ```
@@ -237,6 +237,7 @@ end)
 4 = 4                 # Интерпретира се без грешка
 5 = 4                 # Грешка - MatchError
 a = 4                 # Няма грешка, 'a' има стойност 4
+4 = a                 # Също няма грешка
 {d, e, 5} = {7, 6, 5} # d става 7, e става 6
 
 f = fn (x) -> x * x end
@@ -328,12 +329,27 @@ No shared state, threads and locks.
 #HSLIDE
 ### Metaprogramming
 
-![Image-Absolute](assets/defmacro.jpeg)
-
-#HSLIDE
-### Elixir е написан на Elixir
+##### Elixir е написан на Elixir
 
 ![Image-Absolute](assets/elixir_is_elixir.png)
+
+#HSLIDE
+### Metaprogramming
+
+##### Позволява ни да правим такива неща
+```elixir
+from Post,
+  where: [category: "fresh and new"],
+  order_by: [desc: :published_at],
+  select: [:id, :title, :body]
+```
+
+#HSLIDE
+### Metaprogramming
+
+##### Това пък е резултат от неуспешен тест
+
+![Image-Absolute](assets/failed_test.png)
 
 #HSLIDE
 ### Защо Elixir?
@@ -408,11 +424,62 @@ No shared state, threads and locks.
 * Защо не?
 
 #HSLIDE
-## Контакти
+## Малко информация за курса
+![Image-Absolute](assets/beer.webp)
 
-* https://elixir-lang.bg
-* https://www.facebook.com/groups/636900123169076/
-* course@elixir-lang.bg
+#HSLIDE
+## Добре дошли!
+* Ако сте записали курса за да вземете някоя изборна, ОТПИШЕТЕ ГО, няма да ви е лесно. <!-- .element: class="fragment" -->
+* Ако смятате, че Обектно-ориентираното програмиране е единственият начин, този курс не е за вас. <!-- .element: class="fragment" -->
+* Ако нямате достатъчно време което да отделяте също ще ви е трудно. <!-- .element: class="fragment" -->
+
+#HSLIDE
+## Философия на курс
+
+There will be no foolish wand waving or silly incantations in this class. As such, I don't expect many of you to enjoy the subtle science and exact art that is potion making. However, for those select few, who possess the predisposition, I can teach you how to bewitch the mind and ensnare the senses. I can tell you how to bottle fame, brew glory and even put a stopper in death.
+
+#HSLIDE
+## Какво ще трябва да научите в курса
+* Elixir <!-- .element: class="fragment" -->
+* да мислите и моделирате чрез функции, а не обекти <!-- .element: class="fragment" -->
+* да съпоставяте образци <!-- .element: class="fragment" -->
+* да изпозвате git <!-- .element: class="fragment" -->
+* да сте истински шамани и алхимици способни да миксират всякакви отвари  <!-- .element: class="fragment" -->
+
+#HSLIDE
+## Организация на курса
+* Курсът ще се провежда всеки Вторник и Четвъртък от 19&#58;15 до 21:00.  <!-- .element: class="fragment" -->
+* Ще се стараем за всяка тема да имаме подробна публикация в блога ни. <!-- .element: class="fragment" -->
+* обикновено на лекция ще имаме презентация, но винаги сме готови да обсъдим нещо, което не е включено в нея. <!-- .element: class="fragment" -->
+* Лекциите ще бъдат разделени в 3 основни блока <!-- .element: class="fragment" -->
+  * Първият блок ще бъде информация за самия език и неговите идиоми <!-- .element: class="fragment" -->
+  * Във втория ще говорим за паралелизъм и кокурентност <!-- .element: class="fragment" -->
+  * В края на семестъра ще говорим за различни библиотеки и за неща котио смятаме за интересни <!-- .element: class="fragment" -->
+  * Доста често ще говорим за Erlang <!-- .element: class="fragment" -->
+
+#HSLIDE
+## Оценяване
+* Максимум 135 точки  <!-- .element: class="fragment" -->
+  * 3 домашни за общо 45 точки
+  * Семестриален проект за 30 точки (Ние ще ви дадем задание за проекта)
+  * Kурсов проект от 40 до 80 точки (Определени от нас спрямо сложносттан. Най-често 60 точки)
+* Допълнителни точки <!-- .element: class="fragment" -->
+  * Бонус точки, ако добавите нещо, към някой проект с отворен код свързан с Elixir.
+  * Бонус точки за неща, които ние преценим.
+
+#HSLIDE
+## Скала за оценяване
+Оценнка|2|3|4|5|6|
+-|-|-|-|-|-
+Точки|0-64|65-74|75-94|95-114|115-135
+
+#HSLIDE
+## Ресурси
+* Имаме сайт http://blog.elixir-lang.bg
+* Имаме Facebook група https://www.facebook.com/groups/636900123169076/
+* Имаме mail [course@elixir-lang.bg](mailto:course@elixir-lang.bg)
+* Github https://github.com/ElixirCourse
+
 
 #HSLIDE
 ## Край
